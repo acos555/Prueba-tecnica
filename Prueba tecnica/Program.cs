@@ -4,10 +4,11 @@ namespace Prueba_tecnica
 {
     class Program
     {
-
+        static double IVA_VALOR = 0.19;
+        
         public static double IVA(double valor)
         {
-            double valorIva = (valor * 0.19);
+            double valorIva = (valor * IVA_VALOR);
             return valorIva;
         }
 
